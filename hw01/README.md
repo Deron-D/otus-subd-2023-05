@@ -1,7 +1,5 @@
 # **Лекция №1: Проектирование БД**
 > _Проектирование БД_
-<details>
-  <summary>hw01</summary>
 
 ## **Задание:**
 Разработка проекта
@@ -114,4 +112,3 @@ ALTER TABLE "sales" ADD FOREIGN KEY ("price_id") REFERENCES "prices" ("price_id"
 # **Полезное:**
 
 
-</details>
