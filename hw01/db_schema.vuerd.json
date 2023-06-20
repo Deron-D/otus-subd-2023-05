@@ -1,0 +1,139 @@
+{
+  "canvas": {
+    "version": "2.2.11",
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": 0,
+    "scrollLeft": 0,
+    "zoomLevel": 1,
+    "show": {
+      "tableComment": true,
+      "columnComment": true,
+      "columnDataType": true,
+      "columnDefault": true,
+      "columnAutoIncrement": false,
+      "columnPrimaryKey": true,
+      "columnUnique": false,
+      "columnNotNull": true,
+      "relationship": true
+    },
+    "database": "MySQL",
+    "databaseName": "demo",
+    "canvasType": "ERD",
+    "language": "GraphQL",
+    "tableCase": "pascalCase",
+    "columnCase": "camelCase",
+    "highlightTheme": "VS2015",
+    "bracketType": "none",
+    "setting": {
+      "relationshipDataTypeSync": true,
+      "relationshipOptimization": false,
+      "columnOrder": [
+        "columnName",
+        "columnDataType",
+        "columnNotNull",
+        "columnUnique",
+        "columnAutoIncrement",
+        "columnDefault",
+        "columnComment"
+      ]
+    },
+    "pluginSerializationMap": {}
+  },
+  "table": {
+    "tables": [
+      {
+        "name": "aircrafts_data",
+        "comment": "Aircrafts (internal data)",
+        "columns": [
+          {
+            "name": "aircraft_code",
+            "comment": "Aircraft code, IATA",
+            "dataType": "character(3)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 77.14990234375,
+              "widthComment": 109.1611328125,
+              "widthDataType": 72.078125,
+              "widthDefault": 60
+            },
+            "id": "a2834e00-b1c5-4365-865f-d9c0bcc6f3aa"
+          },
+          {
+            "name": "model",
+            "comment": "Aircraft model",
+            "dataType": "jsonb",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 82.18994140625,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "04b91546-d7e8-47d2-8fc0-cd5e9c3be9d2"
+          },
+          {
+            "name": "range",
+            "comment": "Maximal flying distance, km",
+            "dataType": "integer",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 120,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "c332dc53-e4b6-4b9e-9be0-484710bab50a"
+          }
+        ],
+        "ui": {
+          "active": true,
+          "left": 109.6258,
+          "top": 149.2951,
+          "zIndex": 2,
+          "widthName": 80.76171875,
+          "widthComment": 120
+        },
+        "visible": true,
+        "id": "3dcaf9db-fbf0-4ee1-ac8e-0f507dd3a63e"
+      }
+    ],
+    "indexes": []
+  },
+  "memo": {
+    "memos": []
+  },
+  "relationship": {
+    "relationships": []
+  }
+}
